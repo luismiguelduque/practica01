@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica 01</title>
+    <style>
+        html, body {
+            background-color: azure;
+            padding: 0;
+            margin: 0;
+            max-width: 100%;
+            height: 100%;
+        }
+        body{ 
+            display:flex; 
+            flex-direction:column; 
+        }
+        header {
+            background-color: beige;
+            width: 100%;
+            height: 100px;
+        }
+        .logo {
+            width: 30%;
+            background-color: cornflowerblue;
+            display: inline-block;
+            padding: 0;
+            margin: 0;
+            height: 40px;
+        }
+        .titulo {
+            width: 70%;
+            background-color: darkmagenta;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            font-size: 18px;
+        }
+        footer {
+            width: 100%;
+            background-color: darkslateblue;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            clear: both;
+            position: relative;
+            height: 50px;
+            margin-top:auto; 
+        }
+        .principal {
+            margin: 10px 5%;
+            background-color: wheat;
+            display: flex;
+        }
+        aside {
+            width: 30%;
+            display: flex;
+            background-color: tomato;
+            text-align: center;
+            font-size: 18px;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        .contenedor {
+            width: 70%;
+            background-color: teal;
+            display: block;
+        }
+        .contenedor .contenido {
+            font-size: 16px;
+            color: black;
+            background-color: rgb(140, 230, 60);
+            margin: 10px;
+            border-radius: 8px;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">LOGO</div><div class="titulo"><h1>Titulo</h1></div>
+    </header>
+    <section class="principal">
+        <aside>Aside</aside>
+        <section class="contenedor">
+            <div class="contenido">
+                <img src="https://picsum.photos/250/250.jpg" alt="image">
+            </div>
+            <div class="contenido">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada porta enim convallis aliquam. Phasellus ornare blandit mauris sed aliquet. Vivamus vel nulla ut massa fermentum ultrices. Curabitur sed rutrum felis. Aenean fringilla maximus finibus. Sed rutrum accumsan ex ut blandit. Ut dolor ipsum, pellentesque sed orci ut, interdum pulvinar lorem. Suspendisse sodales nec dolor pretium tempus. Cras bibendum augue et turpis aliquam lacinia. Vivamus at posuere urna, vitae pulvinar nisi. Pellentesque euismod sapien quis dolor auctor sollicitudin. Proin quis egestas enim, quis fermentum magna. Cras sit amet nisl feugiat odio pretium malesuada. Donec et imperdiet dolor, vel mollis purus. Duis quis pharetra mi, quis egestas risus. Nullam nec arcu justo.
+                Nunc ac dui in ligula efficitur tempus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras lacinia malesuada tincidunt. Duis vitae varius justo, sit amet sodales purus. Aliquam malesuada nulla sed posuere faucibus. Donec nec arcu vitae dolor viverra tincidunt ut ut velit. Vivamus tempor tristique dui, quis faucibus odio accumsan eu. Etiam aliquet tellus mi, vel ullamcorper sapien commodo ut. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum vel congue velit, dapibus pulvinar urna. Duis vestibulum nibh id laoreet semper.
+            </div>
+        </section>
+    </section>
+</body>
+<footer id="footer">
+    Pie de página
+</footer>
+</html>
